@@ -6,7 +6,6 @@ public class Recursive {
     public static void main(String[] args) {
         new Grouper().solve();
     }
-    
 }
 
 class Grouper {
@@ -83,7 +82,7 @@ class Grouper {
         UP(-1, 0),
         RIGHT(0, 1),
         DOWN(1, 0),
-        LEFT(-1, 0);
+        LEFT(0, -1);
         
         final int dx;
         final int dy;
